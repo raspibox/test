@@ -3,7 +3,7 @@
 
 # Formel von Dr. Roland Brodbeck, Calsky
 # http://lexikon.astronomie.info/zeitgleichung/neu.html
-# Ãœbertragung auf Python 3 von Alexander Klupp 2014-01-14
+# Uebertragung auf Python 3 von Alexander Klupp 2014-01-14
 
 import math
 
@@ -56,9 +56,9 @@ def BerechneZeitgleichung(T):
 JD2000 = 2451545
 h = -50.0/60.0*RAD
 B = math.radians(48.9601)       # geographische Breite Sersheim
-GeographischeLaenge = 9.0154   # geographische LÃ¤nge
+GeographischeLaenge = 9.0154   # geographische Lae¤nge
 #B = math.radians(51.0896)       # geographische Breite Erkelenz
-#GeographischeLaenge = 6.32218   # geographische LÃ¤nge
+#GeographischeLaenge = 6.32218   # geographische Lae¤nge
 
 def Sonnenauf_untergang (JD, Zeitzone):
     # Zeitzone = 0 #Weltzeit
